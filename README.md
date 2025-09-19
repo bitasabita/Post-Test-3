@@ -24,8 +24,7 @@ Sistem manajemen koleksi sepatu digital adalah sebuah program yang dirancang unt
 <details>
 <summary><h3>🗂 Struktur Packages (MVC)</h3></summary>
 
-<img width="317" height="144" alt="image" src="https://github.com/user-attachments/assets/8f3518c8-0e6a-4acf-b813-a26cc30791dd" />
-
+<img width="443" height="180" alt="image" src="https://github.com/user-attachments/assets/3bea90b2-c63d-41c8-ad9a-1610244b1a95" />
 
 
 Program ini disusun menggunakan konsep Model-View-Controller (MVC):
@@ -99,18 +98,26 @@ Inheritance memungkinkan kita membuat class turunan dari class induk, sehingga c
 
 **🟢 Contoh di kode:**
 
+1. Produk adalah class induk yang menyimpan atribut umum → nama, merk, warna.
+   <img width="200" height="82" alt="image" src="https://github.com/user-attachments/assets/74d88cb1-b7d1-4769-a8f1-d7ca89931179" />
+
 
 2. Sepatu dan Sandal adalah class turunan. Mereka otomatis punya atribut nama, merk, warna, tanpa harus ditulis ulang.
+   <img width="300" height="53" alt="image" src="https://github.com/user-attachments/assets/7e5700d6-b279-4d96-b8be-524eb38ae355" />
+
+   
+<img width="307" height="50" alt="image" src="https://github.com/user-attachments/assets/c461bc53-342a-4698-9665-df3aadc71d4e" />
+
+   
 
 3. Lalu mereka bisa menambahkan atribut khusus → Sepatu punya ukuran, Sandal punya jenis.
 
 **🔗 Hubungannya dengan output:**
+Karena inheritance, kita bisa menyimpan semua objek dalam 1 ArrayList<Produk>;
+Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list seperti dibawah ini:
 
-Karena inheritance, kamu bisa menyimpan semua objek dalam 1 ArrayList<Produk>:
-FOTO
-Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list:
 
-FOTO
+F
 
 Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list:
 <img width="485" height="64" alt="image" src="https://github.com/user-attachments/assets/4ee10192-4d86-4958-8d25-ef6d3a809bd7" />
