@@ -73,7 +73,7 @@ Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk s
 Encapsulation artinya menyembunyikan detail internal sebuah class, lalu menyediakan cara resmi untuk mengakses atau mengubah data.
 Caranya dengan private pada atribut, lalu dibuat getter dan setter.
 
-🟢 Contoh di kode:
+**🟢 Contoh di kode:**
 
 <img width="557" height="251" alt="image" src="https://github.com/user-attachments/assets/76f1a89f-cf42-4b57-bdb1-c85025eddae6" />
 
@@ -85,13 +85,37 @@ Caranya dengan private pada atribut, lalu dibuat getter dan setter.
 3. Dengan setUkuran() → kita bisa mengubah nilainya, misalnya saat user melakukan update sepatu.
 
 
-🔗 Hubungannya dengan output:
+
+**🔗 Hubungannya dengan output:**
 
 Saat user menambahkan sepatu dan program menampilkan detailnya, data ukuran yang muncul berasal dari getter:
 
 <img width="490" height="58" alt="image" src="https://github.com/user-attachments/assets/2175565d-8e64-483a-bea6-96cbf2062ed8" />
 
 
+## 2. Inheritance → Pewarisan
+
+Inheritance memungkinkan kita membuat class turunan dari class induk, sehingga class turunan mewarisi atribut dan method umum.
+
+**🟢 Contoh di kode:**
+
+
+2. Sepatu dan Sandal adalah class turunan. Mereka otomatis punya atribut nama, merk, warna, tanpa harus ditulis ulang.
+
+3. Lalu mereka bisa menambahkan atribut khusus → Sepatu punya ukuran, Sandal punya jenis.
+
+**🔗 Hubungannya dengan output:**
+
+Karena inheritance, kamu bisa menyimpan semua objek dalam 1 ArrayList<Produk>:
+FOTO
+Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list:
+
+FOTO
+
+Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list:
+<img width="485" height="64" alt="image" src="https://github.com/user-attachments/assets/4ee10192-4d86-4958-8d25-ef6d3a809bd7" />
+
+## 3. Override Method
 
 
 </details>
@@ -102,13 +126,12 @@ Saat user menambahkan sepatu dan program menampilkan detailnya, data ukuran yang
 <details>
 <summary><h3>🌟 Fitur Utama</h3></summary>
 
-Menampilkan seluruh data sepatu yang sudah disimpan.  
-
-- Jika ada data:  
-  ![Lihat Koleksi](link_gambar.png)  
-
-- Jika koleksi kosong:  
-  ![Koleksi Kosong](link_gambar.png)  
+1. **Tambah Koleksi**: pengguna bisa menambahkan sepatu baru dengan detail                               lengkap (nama, merk, warna, ukuran).
+2. **Lihat Koleksi**: menampilkan seluruh sepatu yang sudah tersimpan di dalam                          daftar.
+3. **Ubah Koleksi**: memungkinkan pengguna memperbarui data sepatu tertentu.
+4. **Hapus Koleksi**: menghapus data sepatu dari daftar jika sudah tidak                                diperlukan.
+5. **Cari Koleksi**: mencari sepatu berdasarkan kata kunci, misalnya nama, merk,                       atau warna
+6. **Keluar Program**: menutup aplikasi dengan aman setelah pengguna selesai                             melakukan pengelolaan data
 
 </details>
 
@@ -208,11 +231,31 @@ Menutup aplikasi dengan aman.
 
 <details>
 <summary><h3>✅ Validasi Input (MVC)</h3></summary>
+Pada program ini terdapat validasi input yang berfungsi untuk mencegah terjadinya output yang salah akibat data yang dimasukkan pengguna tidak sesuai format. Misalnya, untuk input merek, warna, dan nama sepatu, data yang dimasukkan harus berupa huruf. Sebaliknya, untuk input ukuran sepatu atau saat memilih menu program, data yang dimasukkan harus berupa angka. Jika pengguna memberikan input yang tidak sesuai, maka program akan menampilkan peringatan agar pengguna memasukkan data dengan format yang benar.
 
-Pada menu ini pengguna dapat menambahkan sepatu baru dengan detail lengkap.  
+**1. Berikut adalah contoh ketika pengguna memasukkan data angka pada input nama sepatu (yang seharusnya huruf). Program akan menampilkan peringatan bahwa format input tidak sesuai.**
 
-![Tambah Koleksi](link_gambar.png)
+<img width="377" height="171" alt="image" src="https://github.com/user-attachments/assets/1a1b77fa-a68c-4512-8d96-60cfd1f18551" />
 
+
+**2. Berikut adalah contoh ketika pengguna memasukkan data angka pada input merek sepatu. Program akan menolak input tersebut dan meminta pengguna memasukkan data dengan format huruf.**
+
+<img width="369" height="35" alt="image" src="https://github.com/user-attachments/assets/48533167-a8c9-4f75-9e01-0eb8404c677e" />
+
+
+**3. Berikut adalah contoh validasi input ketika pengguna memasukkan data yang salah pada input warna sepatu. Program akan menampilkan peringatan agar pengguna menginputkan huruf.**
+
+<img width="364" height="39" alt="image" src="https://github.com/user-attachments/assets/f539311e-0c64-4849-8a04-947f3a39fa49" />
+
+
+**4. Berikut adalah contoh validasi input pada ukuran sepatu. Jika pengguna memasukkan huruf (bukan angka), maka program akan menampilkan peringatan dan meminta pengguna untuk menginputkan angka.**
+   
+<img width="260" height="37" alt="image" src="https://github.com/user-attachments/assets/550c6662-1031-4ffe-bd68-75ff2a22eecd" />
+
+
+**5. Berikut adalah contoh validasi input pada menu pilihan. Jika pengguna memasukkan angka yang tidak ada dalam daftar opsi, maka program akan menampilkan peringatan bahwa pilihan tidak valid.**
+
+<img width="338" height="155" alt="image" src="https://github.com/user-attachments/assets/afd8e101-ff36-4f05-8197-9a31312b288b" />
 </details>
 
 ---
