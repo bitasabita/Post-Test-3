@@ -66,9 +66,26 @@ Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk s
 <details>
 <summary><h3>⚙️ Konsep OOP yang Digunakan</h3></summary>
 
-Pada menu ini pengguna dapat menambahkan sepatu baru dengan detail lengkap.  
+**Penjelasan Konsep OOP dalam Program**
 
-![Tambah Koleksi](link_gambar.png)
+## 1. Encapsulation → Getter & Setter
+
+Encapsulation artinya menyembunyikan detail internal sebuah class, lalu menyediakan cara resmi untuk mengakses atau mengubah data.
+Caranya dengan private pada atribut, lalu dibuat getter dan setter.
+
+🟢 Contoh di kode:
+
+<img width="557" height="251" alt="image" src="https://github.com/user-attachments/assets/76f1a89f-cf42-4b57-bdb1-c85025eddae6" />
+
+
+Atribut ukuran di class Sepatu tidak bisa diakses langsung dari luar (sepatu.ukuran → error).
+
+Tapi dengan getUkuran() → kita bisa ambil nilainya, misalnya untuk ditampilkan di menu.
+
+Dengan setUkuran() → kita bisa mengubah nilainya, misalnya saat user melakukan update sepatu.
+
+
+
 
 </details>
 
