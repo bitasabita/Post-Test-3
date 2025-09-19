@@ -72,7 +72,7 @@ Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk s
 Encapsulation artinya menyembunyikan detail internal sebuah class, lalu menyediakan cara resmi untuk mengakses atau mengubah data.
 Caranya dengan private pada atribut, lalu dibuat getter dan setter.
 
-**🟢 Contoh di kode:**
+>**🟢 Contoh di kode:**
 
 <img width="557" height="251" alt="image" src="https://github.com/user-attachments/assets/76f1a89f-cf42-4b57-bdb1-c85025eddae6" />
 
@@ -84,8 +84,7 @@ Caranya dengan private pada atribut, lalu dibuat getter dan setter.
 3. Dengan setUkuran() → kita bisa mengubah nilainya, misalnya saat user melakukan update sepatu.
 
 
-
-**🔗 Hubungannya dengan output:**
+>**🔗 Hubungannya dengan output:**
 
 Saat user menambahkan sepatu dan program menampilkan detailnya, data ukuran yang muncul berasal dari getter:
 
@@ -96,7 +95,7 @@ Saat user menambahkan sepatu dan program menampilkan detailnya, data ukuran yang
 
 Inheritance memungkinkan kita membuat class turunan dari class induk, sehingga class turunan mewarisi atribut dan method umum.
 
-**🟢 Contoh di kode:**
+>**🟢 Contoh di kode:**
 
 1. Produk adalah class induk yang menyimpan atribut umum → nama, merk, warna.
    
@@ -123,18 +122,17 @@ Class Sandal:
    <img width="569" height="265" alt="image" src="https://github.com/user-attachments/assets/c441ffdc-82a9-4345-8100-2d9b59d6bb3b" />
 
 
-**🔗 Hubungannya dengan output:**
+>**🔗 Hubungannya dengan output:**
 
 Karena inheritance, kita bisa menyimpan semua objek dalam 1 ArrayList<Produk>;
 Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list seperti dibawah ini:
 
-Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list:
 <img width="485" height="64" alt="image" src="https://github.com/user-attachments/assets/4ee10192-4d86-4958-8d25-ef6d3a809bd7" />
 
 ## 3. Override Method
 ketika class turunan bisa memiliki perilaku berbeda meskipun method-nya sama dengan class induk. Dalam program ini, class Produk sebagai induk memiliki method abstrak getDeskripsi(), lalu di-override oleh Sepatu dan Sandal. Walaupun nama method-nya sama, hasil yang dikembalikan berbeda sesuai jenis produk. 
 
-**🟢 Contoh di kode:**
+>**🟢 Contoh di kode:**
 
 **Class Produk (superclass)**
 
@@ -308,7 +306,7 @@ Pada program ini terdapat validasi input yang berfungsi untuk mencegah terjadiny
 **1. Berikut adalah contoh ketika pengguna memasukkan data angka pada input nama sepatu (yang seharusnya huruf). Program akan menampilkan peringatan bahwa format input tidak sesuai.**
 
 
-<img width="377" height="171" alt="image" src="https://github.com/user-attachments/assets/1a1b77fa-a68c-4512-8d96-60cfd1f18551" />
+<img width="412" height="215" alt="image" src="https://github.com/user-attachments/assets/223f4d1c-04ae-4bdd-baf9-c991ae577e43" />
 
 
 **2. Berikut adalah contoh ketika pengguna memasukkan data angka pada input merek sepatu. Program akan menolak input tersebut dan meminta pengguna memasukkan data dengan format huruf.**
@@ -332,7 +330,8 @@ Pada program ini terdapat validasi input yang berfungsi untuk mencegah terjadiny
 **5. Berikut adalah contoh validasi input pada menu pilihan. Jika pengguna memasukkan angka yang tidak ada dalam daftar opsi, maka program akan menampilkan peringatan bahwa pilihan tidak valid.**
 
 
-<img width="338" height="155" alt="image" src="https://github.com/user-attachments/assets/afd8e101-ff36-4f05-8197-9a31312b288b" />
+<img width="322" height="182" alt="image" src="https://github.com/user-attachments/assets/e71e9b62-28a7-4814-bdd5-d774abb7f2d5" />
+
 </details>
 
 ---
