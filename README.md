@@ -12,9 +12,10 @@
 <details>
 <summary><h3>📄 Deskripsi Program</h3></summary>
 
-Berikut tampilan menu utama:  
+<img width="297" height="170" alt="image" src="https://github.com/user-attachments/assets/3b49bae4-22d8-4077-bfec-12c1a406866b" />
 
-![Menu Utama](link_gambar.png)
+Sistem manajemen koleksi sepatu digital adalah sebuah program yang dirancang untuk membantu mengatur dan menyimpan data sepatu secara lebih terstruktur. Dengan menerapkan prinsip Pemrograman Berorientasi Objek (OOP), sistem ini mampu menyajikan pengelolaan data yang efisien, rapi, dan mudah dipahami. Setiap detail sepatu, mulai dari jenis, warna, hingga ukuran, dapat dicatat dan diakses dengan lebih praktis tanpa harus bergantung pada ingatan atau catatan manual. Dengan demikian, koleksi sepatu menjadi lebih tertata, terorganisir, serta meminimalisir risiko kesalahan dalam pencatatan data.
+
 
 </details>
 
@@ -23,9 +24,38 @@ Berikut tampilan menu utama:
 <details>
 <summary><h3>🗂 Struktur Packages (MVC)</h3></summary>
 
-Pada menu ini pengguna dapat menambahkan sepatu baru dengan detail lengkap.  
+<img width="317" height="144" alt="image" src="https://github.com/user-attachments/assets/8f3518c8-0e6a-4acf-b813-a26cc30791dd" />
 
-![Tambah Koleksi](link_gambar.png)
+
+Program ini disusun menggunakan konsep Model-View-Controller (MVC):
+
+>**model:**
+Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk sepatu).
+
+* **Produk Java** → menjadi superclass (class induk) yang menyimpan atribut umum dari semua produk, misalnya id, nama, merk, dan harga.
+
+* **Sepatu Java** → menjadi subclass dari Produk, yang mewarisi atribut dasar dari Produk lalu bisa menambahkan atribut khusus, misalnya ukuran atau warna.
+
+* **Sandal Java** → juga merupakan subclass dari Produk, dengan atribut tambahan yang berbeda dari Sepatu.
+
+>**service:**
+
+>Berisi class SepatuService.java yang menjalankan logika utama program.
+
+>Di sinilah proses CRUD (Create, Read, Update, Delete) dilakukan untuk data sepatu.
+
+>Selain itu, service juga mengatur validasi input (contoh: ukuran harus angka, nama tidak boleh kosong) dan pencarian koleksi sepatu.
+
+>**main (com.mycompany.mavenproject2):**
+>Berisi class Mavenproject2.java yang menjadi entry point program.
+
+>Fungsinya:
+
+Menampilkan menu utama ke pengguna.
+
+Meneruskan pilihan pengguna ke SepatuService agar diproses.
+
+>Dengan kata lain, package ini menjadi penghubung antara user (input/output) dengan logika bisnis yang ada di service.
 
 </details>
 
