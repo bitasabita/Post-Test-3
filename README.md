@@ -27,6 +27,7 @@ Sistem manajemen koleksi sepatu digital adalah sebuah program yang dirancang unt
 <img width="317" height="144" alt="image" src="https://github.com/user-attachments/assets/8f3518c8-0e6a-4acf-b813-a26cc30791dd" />
 
 
+
 Program ini disusun menggunakan konsep Model-View-Controller (MVC):
 
 ## 1. model:
@@ -47,13 +48,14 @@ Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk s
 3. Selain itu, service juga mengatur validasi input (contoh: ukuran harus angka, nama tidak boleh kosong) dan pencarian koleksi sepatu.
 
 ## 3. main (com.mycompany.mavenproject2):
+
 1. Berisi class Mavenproject2.java yang menjadi entry point program.
 
-Fungsinya:
+   Fungsinya:
 
-Menampilkan menu utama ke pengguna.
+   Menampilkan menu utama ke pengguna.
 
-Meneruskan pilihan pengguna ke SepatuService agar diproses.
+   Meneruskan pilihan pengguna ke SepatuService agar diproses.
 
 2. Dengan kata lain, package ini menjadi penghubung antara user (input/output) dengan logika bisnis yang ada di service.
 
