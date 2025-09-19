@@ -29,7 +29,7 @@ Sistem manajemen koleksi sepatu digital adalah sebuah program yang dirancang unt
 
 Program ini disusun menggunakan konsep Model-View-Controller (MVC):
 
->**model:**
+**model:**
 Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk sepatu).
 
 * **Produk Java** → menjadi superclass (class induk) yang menyimpan atribut umum dari semua produk, misalnya id, nama, merk, dan harga.
@@ -38,24 +38,24 @@ Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk s
 
 * **Sandal Java** → juga merupakan subclass dari Produk, dengan atribut tambahan yang berbeda dari Sepatu.
 
->**service:**
+**service:**
 
->Berisi class SepatuService.java yang menjalankan logika utama program.
+## 1. Berisi class SepatuService.java yang menjalankan logika utama program.
 
->Di sinilah proses CRUD (Create, Read, Update, Delete) dilakukan untuk data sepatu.
+## 2. Di sinilah proses CRUD (Create, Read, Update, Delete) dilakukan untuk data sepatu.
 
->Selain itu, service juga mengatur validasi input (contoh: ukuran harus angka, nama tidak boleh kosong) dan pencarian koleksi sepatu.
+## 3. Selain itu, service juga mengatur validasi input (contoh: ukuran harus angka, nama tidak boleh kosong) dan pencarian koleksi sepatu.
 
->**main (com.mycompany.mavenproject2):**
->Berisi class Mavenproject2.java yang menjadi entry point program.
+**main (com.mycompany.mavenproject2):**
+## 1. Berisi class Mavenproject2.java yang menjadi entry point program.
 
->Fungsinya:
+Fungsinya:
 
 Menampilkan menu utama ke pengguna.
 
 Meneruskan pilihan pengguna ke SepatuService agar diproses.
 
->Dengan kata lain, package ini menjadi penghubung antara user (input/output) dengan logika bisnis yang ada di service.
+## 1. Dengan kata lain, package ini menjadi penghubung antara user (input/output) dengan logika bisnis yang ada di service.
 
 </details>
 
