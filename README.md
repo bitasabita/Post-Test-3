@@ -32,11 +32,11 @@ Program ini disusun menggunakan konsep Model-View-Controller (MVC):
 ## 1. model:
 Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk sepatu).
 
-* **Produk Java** → menjadi superclass (class induk) yang menyimpan atribut umum dari semua produk, misalnya id, nama, merk.
+* **Produk Java** → menjadi superclass (class induk) yang menyimpan atribut umum dari semua produk yaitu nama, merk, warna
 
-* **Sepatu Java** → menjadi subclass dari Produk, yang mewarisi atribut dasar dari Produk lalu bisa menambahkan atribut khusus, misalnya ukuran atau warna.
+* **Sepatu Java** → menjadi subclass dari Produk, yang mewarisi atribut dasar dari Produk lalu bisa menambahkan atribut khusus, yaitu ukuran atau warna.
 
-* **Sandal Java** → juga merupakan subclass dari Produk, dengan atribut tambahan yang berbeda dari Sepatu.
+* **Sandal Java** → juga merupakan subclass dari Produk, dengan atribut tambahan yang berbeda dari Sepatu yaitu jenis sandal.
 
 ## 2. Service:
 
