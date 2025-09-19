@@ -190,7 +190,9 @@ Berikut tampilan menu utama:
 
 Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan ukuran. Data yang valid akan langsung tersimpan, lalu program memberi konfirmasi "Sepatu berhasil ditambahkan!". Data yang dimasukkan akan otomatis tersimpan dalam koleksi.  
 
-![Tambah Koleksi](<img width="406" height="230" alt="image" src="https://github.com/user-attachments/assets/31bd9caa-2ad1-4b19-b872-c95355bc1522" />)
+
+<img width="295" height="253" alt="image" src="https://github.com/user-attachments/assets/9e00e1eb-a073-40f2-8cea-45ac3b0548e5" />
+
 
 </details>
 
@@ -201,7 +203,9 @@ Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan ukur
 
 Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan jenis sandal. Data yang valid akan langsung tersimpan, lalu program memberi konfirmasi "Sandal berhasil ditambahkan!". Data yang dimasukkan akan otomatis tersimpan dalam koleksi.  
 
-![Tambah Koleksi](<img width="406" height="230" alt="image" src="https://github.com/user-attachments/assets/31bd9caa-2ad1-4b19-b872-c95355bc1522" />)
+
+<img width="326" height="247" alt="image" src="https://github.com/user-attachments/assets/f2b5aca6-885e-4e0b-8f50-bf69c4d798e8" />
+
 
 </details>
 
@@ -212,6 +216,9 @@ Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan jeni
 
 Menu ini akan menampilkan semua sepatu dan sandal yang sudah ada dalam koleksi,informasi akan ditampilkan dalam bentuk list agar pengguna bisa melihat data dengan jelas. Kalau belum ada data, sistem akan memberi tahu bahwa koleksi masih kosong seperti dibawah ini: 
 
+<img width="671" height="138" alt="image" src="https://github.com/user-attachments/assets/901d93e7-ed3a-4917-a4dc-c891b299e9eb" />
+
+
 </details>
 
 ---
@@ -219,7 +226,16 @@ Menu ini akan menampilkan semua sepatu dan sandal yang sudah ada dalam koleksi,i
 <details>
 <summary><h3>4️⃣ Perbarui Produk</h3></summary>
 
-Jika terdapat kesalahan data atau ada perubahan, pengguna dapat memperbarui informasi sepatu atau sandal yang sudah tersimpan. Pengguna memilih nomor sepatu atau sandal yang ingin diubah, lalu memasukkan data baru untuk mengganti yang lama. Validasi tetap berlaku, jadi hanya nomor yang tersedia saja yang bisa diubah.
+Jika terdapat kesalahan data atau ada perubahan, pengguna dapat memperbarui informasi sepatu atau sandal yang sudah tersimpan. Pengguna memilih nomor sepatu atau sandal yang ingin diubah, lalu memasukkan data baru untuk mengganti yang lama. 
+
+Sebelum produk nomor 3 di perbarui:
+
+<img width="399" height="202" alt="image" src="https://github.com/user-attachments/assets/416c9b69-cd8a-414f-9d2c-9c17c76bf5dc" />
+
+Tampilan list koleksi setelah di perbarui:
+
+<img width="433" height="100" alt="image" src="https://github.com/user-attachments/assets/b52e4ae4-23e8-4e95-8dae-9b1c9efbe501" />
+
 
 </details>
 
@@ -228,7 +244,20 @@ Jika terdapat kesalahan data atau ada perubahan, pengguna dapat memperbarui info
 <details>
 <summary><h3>5️⃣ Hapus Produk</h3></summary>
 
-Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar.Sistem akan menampilkan daftar sepatu dan sandal , lalu meminta konfirmasi data mana yang ingin dihapus. Sama seperti update, hanya nomor valid yang bisa dipilih. Jika memasukkan nomor yang tidak valid, tampilannya akan seperti berikut:  
+Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar.Sistem akan menampilkan daftar sepatu dan sandal , lalu meminta konfirmasi data mana yang ingin dihapus. Sama seperti update, hanya nomor valid yang bisa dipilih. 
+
+Sebelum menghapus produk nomor 1:
+
+
+<img width="357" height="133" alt="image" src="https://github.com/user-attachments/assets/803dda1c-ed8e-4123-84a6-6a77ed8046a5" />
+
+
+Tampilan list koleksi ketika salah satu produk sudah di hapus:
+
+
+<img width="385" height="96" alt="image" src="https://github.com/user-attachments/assets/10bdd1a9-c7e7-451f-adde-feff6280d06d" />
+
+
 
 </details>
 
@@ -237,7 +266,19 @@ Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar.Sistem akan
 <details>
 <summary><h3>5️⃣ Cari Produk </h3></summary>
 
-Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu dan sandal tertentu ketika koleksi sudah cukup banyak. Pengguna hanya perlu memasukkan kata kunci berupa nama, merk, atau warna, kemudian sistem akan menampilkan daftar sepatu atau sandal yang sesuai dengan kata kunci tersebut.  
+Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu dan sandal tertentu ketika koleksi sudah cukup banyak. Pengguna hanya perlu memasukkan kata kunci berupa nama, merk, atau warna, kemudian sistem akan menampilkan daftar sepatu atau sandal yang sesuai dengan kata kunci tersebut. 
+
+Ketika kata kunci sesuai atau ada pada list koleksi:
+
+
+<img width="379" height="95" alt="image" src="https://github.com/user-attachments/assets/b8ac72cc-30f3-47bd-9f7f-82e853985f3e" />
+
+
+Ketika kata kunci tidak ada pada list koleksi:
+
+
+<img width="405" height="95" alt="image" src="https://github.com/user-attachments/assets/8e082e30-ae70-4002-b77e-f3576a6f1334" />
+
 
 </details>
 
@@ -248,6 +289,10 @@ Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu dan sa
 
 Jika pengguna ingin keluar dari program, cukup memilih opsi 0 (Keluar) pada menu utama. Setelah dipilih, sistem akan menampilkan pesan “Terima kasih, program selesai.” sebagai tanda bahwa program sudah dihentikan. Bagian bawah layar juga menampilkan informasi dari Java, yaitu status BUILD SUCCESS yang berarti program berhasil dijalankan tanpa error, serta waktu total eksekusi program hingga selesai.
 
+
+<img width="410" height="152" alt="image" src="https://github.com/user-attachments/assets/9a5dec09-afec-4a51-9d6a-a71e91d6aac4" />
+
+
 </details>
 
 </details>
@@ -256,29 +301,36 @@ Jika pengguna ingin keluar dari program, cukup memilih opsi 0 (Keluar) pada menu
 
 <details>
 <summary><h3>✅ Validasi Input (MVC)</h3></summary>
+   
 Pada program ini terdapat validasi input yang berfungsi untuk mencegah terjadinya output yang salah akibat data yang dimasukkan pengguna tidak sesuai format. Misalnya, untuk input merek, warna, dan nama sepatu, data yang dimasukkan harus berupa huruf. Sebaliknya, untuk input ukuran sepatu atau saat memilih menu program, data yang dimasukkan harus berupa angka. Jika pengguna memberikan input yang tidak sesuai, maka program akan menampilkan peringatan agar pengguna memasukkan data dengan format yang benar.
 
+
 **1. Berikut adalah contoh ketika pengguna memasukkan data angka pada input nama sepatu (yang seharusnya huruf). Program akan menampilkan peringatan bahwa format input tidak sesuai.**
+
 
 <img width="377" height="171" alt="image" src="https://github.com/user-attachments/assets/1a1b77fa-a68c-4512-8d96-60cfd1f18551" />
 
 
 **2. Berikut adalah contoh ketika pengguna memasukkan data angka pada input merek sepatu. Program akan menolak input tersebut dan meminta pengguna memasukkan data dengan format huruf.**
 
+
 <img width="369" height="35" alt="image" src="https://github.com/user-attachments/assets/48533167-a8c9-4f75-9e01-0eb8404c677e" />
 
 
 **3. Berikut adalah contoh validasi input ketika pengguna memasukkan data yang salah pada input warna sepatu. Program akan menampilkan peringatan agar pengguna menginputkan huruf.**
 
+
 <img width="364" height="39" alt="image" src="https://github.com/user-attachments/assets/f539311e-0c64-4849-8a04-947f3a39fa49" />
 
 
 **4. Berikut adalah contoh validasi input pada ukuran sepatu. Jika pengguna memasukkan huruf (bukan angka), maka program akan menampilkan peringatan dan meminta pengguna untuk menginputkan angka.**
+
    
 <img width="260" height="37" alt="image" src="https://github.com/user-attachments/assets/550c6662-1031-4ffe-bd68-75ff2a22eecd" />
 
 
 **5. Berikut adalah contoh validasi input pada menu pilihan. Jika pengguna memasukkan angka yang tidak ada dalam daftar opsi, maka program akan menampilkan peringatan bahwa pilihan tidak valid.**
+
 
 <img width="338" height="155" alt="image" src="https://github.com/user-attachments/assets/afd8e101-ff36-4f05-8197-9a31312b288b" />
 </details>
