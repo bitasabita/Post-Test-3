@@ -116,7 +116,10 @@ Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa
 <img width="485" height="64" alt="image" src="https://github.com/user-attachments/assets/4ee10192-4d86-4958-8d25-ef6d3a809bd7" />
 
 ## 3. Override Method
+ketika class turunan bisa memiliki perilaku berbeda meskipun method-nya sama dengan class induk. Dalam program ini, class Produk sebagai induk memiliki method abstrak getDeskripsi(), lalu di-override oleh Sepatu dan Sandal. Walaupun nama method-nya sama, hasil yang dikembalikan berbeda sesuai jenis produk. Contoh:
+FOTO
 
+Ketika program menyimpan objek Sepatu dan Sandal dalam satu list bertipe Produk, lalu memanggil getDeskripsi(), Java otomatis menampilkan hasil sesuai dengan objek sebenarnya.Method yang sama bisa menghasilkan output berbeda.
 
 </details>
 
