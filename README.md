@@ -99,18 +99,26 @@ Inheritance memungkinkan kita membuat class turunan dari class induk, sehingga c
 **🟢 Contoh di kode:**
 
 1. Produk adalah class induk yang menyimpan atribut umum → nama, merk, warna.
+   
    <img width="200" height="82" alt="image" src="https://github.com/user-attachments/assets/74d88cb1-b7d1-4769-a8f1-d7ca89931179" />
 
 
 2. Sepatu dan Sandal adalah class turunan. Mereka otomatis punya atribut nama, merk, warna, tanpa harus ditulis ulang.
+   
    <img width="300" height="53" alt="image" src="https://github.com/user-attachments/assets/7e5700d6-b279-4d96-b8be-524eb38ae355" />
 
    
-<img width="307" height="50" alt="image" src="https://github.com/user-attachments/assets/c461bc53-342a-4698-9665-df3aadc71d4e" />
+   <img width="307" height="50" alt="image" src="https://github.com/user-attachments/assets/c461bc53-342a-4698-9665-df3aadc71d4e" />
 
    
-
 3. Lalu mereka bisa menambahkan atribut khusus → Sepatu punya ukuran, Sandal punya jenis.
+
+Class Sepatu:
+   <img width="579" height="271" alt="image" src="https://github.com/user-attachments/assets/2594e92d-2f52-4cba-91ae-b6df041bc43a" />
+
+Class Sandal:
+   <img width="569" height="265" alt="image" src="https://github.com/user-attachments/assets/c441ffdc-82a9-4345-8100-2d9b59d6bb3b" />
+
 
 **🔗 Hubungannya dengan output:**
 Karena inheritance, kita bisa menyimpan semua objek dalam 1 ArrayList<Produk>;
