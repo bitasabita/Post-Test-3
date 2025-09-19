@@ -121,20 +121,34 @@ Class Sandal:
 
 
 **🔗 Hubungannya dengan output:**
+
 Karena inheritance, kita bisa menyimpan semua objek dalam 1 ArrayList<Produk>;
 Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list seperti dibawah ini:
-
-
-F
 
 Hasilnya, meskipun daftar berisi campuran sepatu dan sandal, semuanya tetap bisa ditampilkan dalam 1 list:
 <img width="485" height="64" alt="image" src="https://github.com/user-attachments/assets/4ee10192-4d86-4958-8d25-ef6d3a809bd7" />
 
 ## 3. Override Method
-ketika class turunan bisa memiliki perilaku berbeda meskipun method-nya sama dengan class induk. Dalam program ini, class Produk sebagai induk memiliki method abstrak getDeskripsi(), lalu di-override oleh Sepatu dan Sandal. Walaupun nama method-nya sama, hasil yang dikembalikan berbeda sesuai jenis produk. Contoh:
-FOTO
+ketika class turunan bisa memiliki perilaku berbeda meskipun method-nya sama dengan class induk. Dalam program ini, class Produk sebagai induk memiliki method abstrak getDeskripsi(), lalu di-override oleh Sepatu dan Sandal. Walaupun nama method-nya sama, hasil yang dikembalikan berbeda sesuai jenis produk. 
 
-Ketika program menyimpan objek Sepatu dan Sandal dalam satu list bertipe Produk, lalu memanggil getDeskripsi(), Java otomatis menampilkan hasil sesuai dengan objek sebenarnya.Method yang sama bisa menghasilkan output berbeda.
+**🟢 Contoh di kode:**
+
+Class Produk (superclass)
+
+<img width="601" height="83" alt="image" src="https://github.com/user-attachments/assets/5ad8e196-5bad-439a-8b66-c45645108efa" />
+
+
+Class Sepatu (subclass)
+
+<img width="516" height="113" alt="image" src="https://github.com/user-attachments/assets/cf882403-cb45-44c9-85ca-3fb01cb9361e" />
+
+
+Class Sandal (subclass)
+
+<img width="508" height="114" alt="image" src="https://github.com/user-attachments/assets/8d02bb32-f387-45d8-a2c9-0a8137a7ad52" />
+
+
+Ketika program menyimpan objek Sepatu dan Sandal dalam satu list bertipe Produk, lalu memanggil getDeskripsi(), Java otomatis menampilkan hasil sesuai dengan objek sebenarnya. Method yang sama bisa menghasilkan output berbeda.
 
 </details>
 
