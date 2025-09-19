@@ -103,7 +103,7 @@ Inheritance memungkinkan kita membuat class turunan dari class induk, sehingga c
    <img width="200" height="82" alt="image" src="https://github.com/user-attachments/assets/74d88cb1-b7d1-4769-a8f1-d7ca89931179" />
 
 
-2. Sepatu dan Sandal adalah class turunan. Mereka otomatis punya atribut nama, merk, warna, tanpa harus ditulis ulang.
+2. Sepatu dan Sandal adalah class turunan. Mereka otomatis punya atribut nama, merk, warna, tanpa harus ditulis ulang dan tinggal ditambahkan atribut yang dibutuhkan oleh sepatu atau pun sandal, sublass ditandai dengan "extends (nama superclass)" seperti contoh dibawah ini:
    
    <img width="300" height="53" alt="image" src="https://github.com/user-attachments/assets/7e5700d6-b279-4d96-b8be-524eb38ae355" />
 
