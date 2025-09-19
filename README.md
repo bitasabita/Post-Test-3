@@ -226,11 +226,11 @@ Menu ini akan menampilkan semua sepatu dan sandal yang sudah ada dalam koleksi,i
 
 Jika terdapat kesalahan data atau ada perubahan, pengguna dapat memperbarui informasi sepatu atau sandal yang sudah tersimpan. Pengguna memilih nomor sepatu atau sandal yang ingin diubah, lalu memasukkan data baru untuk mengganti yang lama. 
 
-Sebelum produk nomor 3 di perbarui:
+**Sebelum produk nomor 3 di perbarui:**
 
 <img width="399" height="202" alt="image" src="https://github.com/user-attachments/assets/416c9b69-cd8a-414f-9d2c-9c17c76bf5dc" />
 
-Tampilan list koleksi setelah di perbarui:
+**Tampilan list koleksi setelah di perbarui:**
 
 <img width="433" height="100" alt="image" src="https://github.com/user-attachments/assets/b52e4ae4-23e8-4e95-8dae-9b1c9efbe501" />
 
@@ -244,13 +244,13 @@ Tampilan list koleksi setelah di perbarui:
 
 Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar.Sistem akan menampilkan daftar sepatu dan sandal , lalu meminta konfirmasi data mana yang ingin dihapus. Sama seperti update, hanya nomor valid yang bisa dipilih. 
 
-Sebelum menghapus produk nomor 1:
+**Sebelum menghapus produk nomor 1:**
 
 
 <img width="357" height="133" alt="image" src="https://github.com/user-attachments/assets/803dda1c-ed8e-4123-84a6-6a77ed8046a5" />
 
 
-Tampilan list koleksi ketika salah satu produk sudah di hapus:
+**Tampilan list koleksi ketika salah satu produk sudah di hapus:**
 
 
 <img width="385" height="96" alt="image" src="https://github.com/user-attachments/assets/10bdd1a9-c7e7-451f-adde-feff6280d06d" />
@@ -266,13 +266,13 @@ Tampilan list koleksi ketika salah satu produk sudah di hapus:
 
 Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu dan sandal tertentu ketika koleksi sudah cukup banyak. Pengguna hanya perlu memasukkan kata kunci berupa nama, merk, atau warna, kemudian sistem akan menampilkan daftar sepatu atau sandal yang sesuai dengan kata kunci tersebut. 
 
-Ketika kata kunci sesuai atau ada pada list koleksi:
+**Ketika kata kunci sesuai atau ada pada list koleksi:**
 
 
 <img width="379" height="95" alt="image" src="https://github.com/user-attachments/assets/b8ac72cc-30f3-47bd-9f7f-82e853985f3e" />
 
 
-Ketika kata kunci tidak ada pada list koleksi:
+**Ketika kata kunci tidak ada pada list koleksi:**
 
 
 <img width="405" height="95" alt="image" src="https://github.com/user-attachments/assets/8e082e30-ae70-4002-b77e-f3576a6f1334" />
