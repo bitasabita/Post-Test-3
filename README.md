@@ -143,7 +143,7 @@ ketika class turunan bisa memiliki perilaku berbeda meskipun method-nya sama den
 
 **Class Sepatu (subclass)**
 
-<img width="516" height="113" alt="image" src="https://github.com/user-attachments/assets/cf882403-cb45-44c9-85ca-3fb01cb9361e" />
+<img width="510" height="111" alt="image" src="https://github.com/user-attachments/assets/15520355-842f-42d3-9278-21fb519dbde8" />
 
 
 **Class Sandal (subclass)**
@@ -168,7 +168,7 @@ Ketika program menyimpan objek Sepatu dan Sandal dalam satu list bertipe Produk,
 2. **Tambah Sandal**: Pengguna bisa menambahkan sandal baru dengan detail seperti (nama, merk, warna, dan jenis sandal)
    
 3. **Tampilkan Semua Produk**: Untuk menampilkan seluruh produk yang pernah di tambahkan ke dalam koleksi baik sepatu maupun sandal
-4.  **Tampilkan Semua Produk**: Untuk mengubah data sepatu atau sandal seperti ingin mengubah ukuran, warna, nama, merk ketika merasa data yang dimasukkan sebelumnya salah atau memang ingin melakukan perubahan pada data.
+4.  **Perbarui Produk**: Untuk mengubah data sepatu atau sandal seperti ingin mengubah ukuran, warna, nama, merk ketika merasa data yang dimasukkan sebelumnya salah atau memang ingin melakukan perubahan pada data.
 5. **Hapus Produk**: Menghapus data sepatu atau sandal  dari daftar jika sudah tidak diperlukan.
 6. **Cari Produk**: Mencari sepatu ataupun sandal berdasarkan kata kunci, misalnya nama, merk, atau warna
 0. **Keluar**: Menutup aplikasi dengan aman setelah pengguna selesai                             melakukan pengelolaan data
@@ -182,75 +182,62 @@ Ketika program menyimpan objek Sepatu dan Sandal dalam satu list bertipe Produk,
 
 Berikut tampilan menu utama:  
 
-![Menu Utama](link_gambar.png)
+<img width="298" height="133" alt="image" src="https://github.com/user-attachments/assets/fb3cd9f2-d005-4579-a806-9bd5311dce6e" />
 
 
 <details>
-<summary><h3>1️⃣ Tambah Koleksi</h3></summary>
+<summary><h3>1️⃣ Tambah Sepatu</h3></summary>
 
-Pada menu ini pengguna dapat menambahkan sepatu baru dengan detail lengkap.  
+Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan ukuran. Data yang valid akan langsung tersimpan, lalu program memberi konfirmasi "Sepatu berhasil ditambahkan!". Data yang dimasukkan akan otomatis tersimpan dalam koleksi.  
 
-![Tambah Koleksi](link_gambar.png)
+![Tambah Koleksi](<img width="406" height="230" alt="image" src="https://github.com/user-attachments/assets/31bd9caa-2ad1-4b19-b872-c95355bc1522" />)
 
 </details>
 
 ---
 
 <details>
-<summary><h3>2️⃣ Lihat Koleksi</h3></summary>
+<summary><h3>1️⃣ Tambah Sandal</h3></summary>
 
-Menampilkan seluruh data sepatu yang sudah disimpan.  
+Di menu ini, pengguna diminta mengisi detail sepatu: nama, merk, warna, dan jenis sandal. Data yang valid akan langsung tersimpan, lalu program memberi konfirmasi "Sandal berhasil ditambahkan!". Data yang dimasukkan akan otomatis tersimpan dalam koleksi.  
 
-- Jika ada data:  
-  ![Lihat Koleksi](link_gambar.png)  
-
-- Jika koleksi kosong:  
-  ![Koleksi Kosong](link_gambar.png)  
+![Tambah Koleksi](<img width="406" height="230" alt="image" src="https://github.com/user-attachments/assets/31bd9caa-2ad1-4b19-b872-c95355bc1522" />)
 
 </details>
 
 ---
 
 <details>
-<summary><h3>3️⃣ Ubah Koleksi</h3></summary>
+<summary><h3>3️⃣ Tampilkan Semua Produk</h3></summary>
 
-Pengguna dapat memperbarui data sepatu berdasarkan nomor urut.  
-
-- Jika berhasil:  
-  ![Ubah Koleksi Berhasil](link_gambar.png)  
-
-- Jika input salah:  
-  ![Ubah Koleksi Salah](link_gambar.png)  
+Menu ini akan menampilkan semua sepatu dan sandal yang sudah ada dalam koleksi,informasi akan ditampilkan dalam bentuk list agar pengguna bisa melihat data dengan jelas. Kalau belum ada data, sistem akan memberi tahu bahwa koleksi masih kosong seperti dibawah ini: 
 
 </details>
 
 ---
 
 <details>
-<summary><h3>4️⃣ Hapus Koleksi</h3></summary>
+<summary><h3>4️⃣ Perbarui Produk</h3></summary>
 
-Menghapus data sepatu tertentu.  
-
-- Jika berhasil:  
-  ![Hapus Koleksi Berhasil](link_gambar.png)  
-
-- Jika input salah:  
-  ![Hapus Koleksi Salah](link_gambar.png)  
+Jika terdapat kesalahan data atau ada perubahan, pengguna dapat memperbarui informasi sepatu atau sandal yang sudah tersimpan. Pengguna memilih nomor sepatu atau sandal yang ingin diubah, lalu memasukkan data baru untuk mengganti yang lama. Validasi tetap berlaku, jadi hanya nomor yang tersedia saja yang bisa diubah.
 
 </details>
 
 ---
 
 <details>
-<summary><h3>5️⃣ Cari Koleksi</h3></summary>
+<summary><h3>5️⃣ Hapus Produk</h3></summary>
 
-Fitur pencarian berdasarkan nama, merk, atau warna.  
+Menu ini memungkinkan pengguna menghapus sepatu tertentu dari daftar.Sistem akan menampilkan daftar sepatu dan sandal , lalu meminta konfirmasi data mana yang ingin dihapus. Sama seperti update, hanya nomor valid yang bisa dipilih. Jika memasukkan nomor yang tidak valid, tampilannya akan seperti berikut:  
 
-- Jika ditemukan:  
-  ![Cari Koleksi Berhasil](link_gambar.png)  
+</details>
 
-- Jika tidak ditemukan:  
-  ![Cari Koleksi Gagal](link_gambar.png)  
+---
+
+<details>
+<summary><h3>5️⃣ Cari Produk </h3></summary>
+
+Fitur pencarian berfungsi untuk memudahkan pengguna menemukan data sepatu dan sandal tertentu ketika koleksi sudah cukup banyak. Pengguna hanya perlu memasukkan kata kunci berupa nama, merk, atau warna, kemudian sistem akan menampilkan daftar sepatu atau sandal yang sesuai dengan kata kunci tersebut.  
 
 </details>
 
@@ -259,9 +246,7 @@ Fitur pencarian berdasarkan nama, merk, atau warna.
 <details>
 <summary><h3>6️⃣ Keluar Program</h3></summary>
 
-Menutup aplikasi dengan aman.  
-
-![Keluar Program](link_gambar.png)
+Jika pengguna ingin keluar dari program, cukup memilih opsi 0 (Keluar) pada menu utama. Setelah dipilih, sistem akan menampilkan pesan “Terima kasih, program selesai.” sebagai tanda bahwa program sudah dihentikan. Bagian bawah layar juga menampilkan informasi dari Java, yaitu status BUILD SUCCESS yang berarti program berhasil dijalankan tanpa error, serta waktu total eksekusi program hingga selesai.
 
 </details>
 
