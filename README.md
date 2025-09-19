@@ -44,7 +44,7 @@ Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk s
 
 2. Di sinilah proses CRUD (Create, Read, Update, Delete) dilakukan untuk data sepatu.
 
-3. Selain itu, service juga mengatur validasi input (contoh: ukuran harus angka, nama tidak boleh kosong) dan pencarian koleksi sepatu.
+3. Selain itu, service juga mengatur validasi input (contoh: ukuran harus angka, nama tidak boleh kosong) dan pencarian koleksi sepatu atau sandal.
 
 ## 3. main (com.mycompany.mavenproject2):
 
