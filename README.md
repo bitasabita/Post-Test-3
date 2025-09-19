@@ -133,3 +133,97 @@ Pada program ini terdapat validasi input yang berfungsi untuk mencegah terjadiny
 **5. Berikut adalah contoh validasi input pada menu pilihan. Jika pengguna memasukkan angka yang tidak ada dalam daftar opsi, maka program akan menampilkan peringatan bahwa pilihan tidak valid.**
 
 <img width="338" height="155" alt="image" src="https://github.com/user-attachments/assets/afd8e101-ff36-4f05-8197-9a31312b288b" />
+
+# 🚀 Cara Menggunakan Program  
+
+<details>
+<summary><h3>📌 Menu Utama Koleksi Sepatu</h3></summary>
+
+Berikut tampilan menu utama:  
+
+![Menu Utama](link_gambar.png)
+
+</details>
+
+---
+
+<details>
+<summary><h3>1️⃣ Tambah Koleksi</h3></summary>
+
+Pada menu ini pengguna dapat menambahkan sepatu baru dengan detail lengkap.  
+
+![Tambah Koleksi](link_gambar.png)
+
+</details>
+
+---
+
+<details>
+<summary><h3>2️⃣ Lihat Koleksi</h3></summary>
+
+Menampilkan seluruh data sepatu yang sudah disimpan.  
+
+- Jika ada data:  
+  ![Lihat Koleksi](link_gambar.png)  
+
+- Jika koleksi kosong:  
+  ![Koleksi Kosong](link_gambar.png)  
+
+</details>
+
+---
+
+<details>
+<summary><h3>3️⃣ Ubah Koleksi</h3></summary>
+
+Pengguna dapat memperbarui data sepatu berdasarkan nomor urut.  
+
+- Jika berhasil:  
+  ![Ubah Koleksi Berhasil](link_gambar.png)  
+
+- Jika input salah:  
+  ![Ubah Koleksi Salah](link_gambar.png)  
+
+</details>
+
+---
+
+<details>
+<summary><h3>4️⃣ Hapus Koleksi</h3></summary>
+
+Menghapus data sepatu tertentu.  
+
+- Jika berhasil:  
+  ![Hapus Koleksi Berhasil](link_gambar.png)  
+
+- Jika input salah:  
+  ![Hapus Koleksi Salah](link_gambar.png)  
+
+</details>
+
+---
+
+<details>
+<summary><h3>5️⃣ Cari Koleksi</h3></summary>
+
+Fitur pencarian berdasarkan nama, merk, atau warna.  
+
+- Jika ditemukan:  
+  ![Cari Koleksi Berhasil](link_gambar.png)  
+
+- Jika tidak ditemukan:  
+  ![Cari Koleksi Gagal](link_gambar.png)  
+
+</details>
+
+---
+
+<details>
+<summary><h3>6️⃣ Keluar Program</h3></summary>
+
+Menutup aplikasi dengan aman.  
+
+![Keluar Program](link_gambar.png)
+
+</details>
+
