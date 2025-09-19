@@ -114,9 +114,12 @@ Inheritance memungkinkan kita membuat class turunan dari class induk, sehingga c
 3. Lalu mereka bisa menambahkan atribut khusus → Sepatu punya ukuran, Sandal punya jenis.
 
 Class Sepatu:
+
    <img width="579" height="271" alt="image" src="https://github.com/user-attachments/assets/2594e92d-2f52-4cba-91ae-b6df041bc43a" />
 
+
 Class Sandal:
+
    <img width="569" height="265" alt="image" src="https://github.com/user-attachments/assets/c441ffdc-82a9-4345-8100-2d9b59d6bb3b" />
 
 
@@ -133,17 +136,17 @@ ketika class turunan bisa memiliki perilaku berbeda meskipun method-nya sama den
 
 **🟢 Contoh di kode:**
 
-Class Produk (superclass)
+**Class Produk (superclass)**
 
 <img width="601" height="83" alt="image" src="https://github.com/user-attachments/assets/5ad8e196-5bad-439a-8b66-c45645108efa" />
 
 
-Class Sepatu (subclass)
+**Class Sepatu (subclass)**
 
 <img width="516" height="113" alt="image" src="https://github.com/user-attachments/assets/cf882403-cb45-44c9-85ca-3fb01cb9361e" />
 
 
-Class Sandal (subclass)
+**Class Sandal (subclass)**
 
 <img width="508" height="114" alt="image" src="https://github.com/user-attachments/assets/8d02bb32-f387-45d8-a2c9-0a8137a7ad52" />
 
@@ -158,12 +161,16 @@ Ketika program menyimpan objek Sepatu dan Sandal dalam satu list bertipe Produk,
 <details>
 <summary><h3>🌟 Fitur Utama</h3></summary>
 
-1. **Tambah Koleksi**: pengguna bisa menambahkan sepatu baru dengan detail                               lengkap (nama, merk, warna, ukuran).
-2. **Lihat Koleksi**: menampilkan seluruh sepatu yang sudah tersimpan di dalam                          daftar.
-3. **Ubah Koleksi**: memungkinkan pengguna memperbarui data sepatu tertentu.
-4. **Hapus Koleksi**: menghapus data sepatu dari daftar jika sudah tidak                                diperlukan.
-5. **Cari Koleksi**: mencari sepatu berdasarkan kata kunci, misalnya nama, merk,                       atau warna
-6. **Keluar Program**: menutup aplikasi dengan aman setelah pengguna selesai                             melakukan pengelolaan data
+<img width="298" height="133" alt="image" src="https://github.com/user-attachments/assets/fb3cd9f2-d005-4579-a806-9bd5311dce6e" />
+
+
+1. **Tambah Sepatu**: Pengguna bisa menambahkan sepatu baru dengan detail                               lengkap (nama, merk, warna, ukuran).
+2. **Tambah Sandal**: Pengguna bisa menambahkan sandal baru dengan detail seperti (nama, merk, warna, dan jenis sandal)
+   
+3. **Tampilkan Semua Produk**: Untuk menampilkan seluruh produk yang pernah di tambahkan ke dalam koleksi baik sepatu maupun sandal
+5. **Hapus Produk**: menghapus data sepatu atau sandal  dari daftar jika sudah tidak diperlukan.
+6. **Cari Produk**: mencari sepatu ataupun sandal berdasarkan kata kunci, misalnya nama, merk, atau warna
+7. **Keluar Program**: menutup aplikasi dengan aman setelah pengguna selesai                             melakukan pengelolaan data
 
 </details>
 
