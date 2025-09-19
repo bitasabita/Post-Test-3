@@ -168,9 +168,10 @@ Ketika program menyimpan objek Sepatu dan Sandal dalam satu list bertipe Produk,
 2. **Tambah Sandal**: Pengguna bisa menambahkan sandal baru dengan detail seperti (nama, merk, warna, dan jenis sandal)
    
 3. **Tampilkan Semua Produk**: Untuk menampilkan seluruh produk yang pernah di tambahkan ke dalam koleksi baik sepatu maupun sandal
-5. **Hapus Produk**: menghapus data sepatu atau sandal  dari daftar jika sudah tidak diperlukan.
-6. **Cari Produk**: mencari sepatu ataupun sandal berdasarkan kata kunci, misalnya nama, merk, atau warna
-7. **Keluar Program**: menutup aplikasi dengan aman setelah pengguna selesai                             melakukan pengelolaan data
+4.  **Tampilkan Semua Produk**: Untuk mengubah data sepatu atau sandal seperti ingin mengubah ukuran, warna, nama, merk ketika merasa data yang dimasukkan sebelumnya salah atau memang ingin melakukan perubahan pada data.
+5. **Hapus Produk**: Menghapus data sepatu atau sandal  dari daftar jika sudah tidak diperlukan.
+6. **Cari Produk**: Mencari sepatu ataupun sandal berdasarkan kata kunci, misalnya nama, merk, atau warna
+0. **Keluar**: Menutup aplikasi dengan aman setelah pengguna selesai                             melakukan pengelolaan data
 
 </details>
 
