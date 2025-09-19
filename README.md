@@ -33,7 +33,7 @@ Program ini disusun menggunakan konsep Model-View-Controller (MVC):
 ## 1. model:
 Berisi class–class yang mewakili data atau objek nyata (dalam hal ini produk sepatu).
 
-* **Produk Java** → menjadi superclass (class induk) yang menyimpan atribut umum dari semua produk, misalnya id, nama, merk, dan harga.
+* **Produk Java** → menjadi superclass (class induk) yang menyimpan atribut umum dari semua produk, misalnya id, nama, merk.
 
 * **Sepatu Java** → menjadi subclass dari Produk, yang mewarisi atribut dasar dari Produk lalu bisa menambahkan atribut khusus, misalnya ukuran atau warna.
 
@@ -78,11 +78,18 @@ Caranya dengan private pada atribut, lalu dibuat getter dan setter.
 <img width="557" height="251" alt="image" src="https://github.com/user-attachments/assets/76f1a89f-cf42-4b57-bdb1-c85025eddae6" />
 
 
-Atribut ukuran di class Sepatu tidak bisa diakses langsung dari luar (sepatu.ukuran → error).
+1. Atribut ukuran di class Sepatu tidak bisa diakses langsung dari luar (sepatu.ukuran → error).
 
-Tapi dengan getUkuran() → kita bisa ambil nilainya, misalnya untuk ditampilkan di menu.
+2. Tapi dengan getUkuran() → kita bisa ambil nilainya, misalnya untuk ditampilkan di menu.
 
-Dengan setUkuran() → kita bisa mengubah nilainya, misalnya saat user melakukan update sepatu.
+3. Dengan setUkuran() → kita bisa mengubah nilainya, misalnya saat user melakukan update sepatu.
+
+
+🔗 Hubungannya dengan output:
+
+Saat user menambahkan sepatu dan program menampilkan detailnya, data ukuran yang muncul berasal dari getter:
+
+<img width="490" height="58" alt="image" src="https://github.com/user-attachments/assets/2175565d-8e64-483a-bea6-96cbf2062ed8" />
 
 
 
